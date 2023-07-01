@@ -17,9 +17,10 @@ The realized project is a web application for internship management within a com
 
 ## 💻 Web Application <a name="web-application"></a>
 
-  <img src="https://github.com/afatratinmypocket/Web-Application-of-Internship-Management/assets/119759894/c30af32f-d471-4687-9951-093955d8cd5e" alt="Logo 1"  height="60">
-  <img src="https://github.com/afatratinmypocket/Web-Application-of-Internship-Management/assets/119759894/c2617183-5d24-4998-8cfc-bb300252adc5" alt="Logo 2" height="60">
-
+<p align="left">
+<img src="suninternship.png" alt="Logo 1"  height="60">
+<img src="suninternship-icon.png" alt="Logo 2" height="60">
+</p>
 The web application provides a user-friendly and modern interface, designed to simplify the internship management tasks. It offers features that streamline the process and ensure its success.
 
 ## 🎨 User Interface <a name="user-interface"></a>
