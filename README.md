@@ -17,11 +17,11 @@ The realized project is a web application for internship management within a com
 
 ## 💻 Web Application <a name="web-application"></a>
 
-<p align="left">
+The web application provides a user-friendly and modern interface, designed to simplify the internship management tasks. It offers features that streamline the process and ensure its success.
+<p align="center">
 <img src="suninternship.png" alt="Logo 1"  height="60">
 <img src="suninternship-icon.png" alt="Logo 2" height="60">
 </p>
-The web application provides a user-friendly and modern interface, designed to simplify the internship management tasks. It offers features that streamline the process and ensure its success.
 
 ## 🎨 User Interface <a name="user-interface"></a>
 
