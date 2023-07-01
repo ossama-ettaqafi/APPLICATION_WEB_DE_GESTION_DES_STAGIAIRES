@@ -29,7 +29,7 @@ The user interface of the application is simple, modern, and responsive. It aims
 
 ## 🔧 Used Tools <a name="used-tools"></a>
 
-Certainly! Here's an updated version with a brief explanation of each technology and tool:
+The project utilizes the following technologies and tools:
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo" width="20" height="20"> **HTML:** Used to create the structure and content of web pages, defining elements like headings, paragraphs, lists, and forms. It enables us to present information and enable user interaction.
 
