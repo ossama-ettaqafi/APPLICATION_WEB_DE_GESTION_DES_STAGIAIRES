@@ -12,7 +12,7 @@ Ce projet représente mon travail de fin d'études de ma deuxième année en inf
 
 **Fonctionnalités Principales**
 
-- **Gestion des Stages :** Suivi des stages des étudiants, depuis la recherche de stage jusqu'à la soutenance.
+- **Gestion des Stagiaires :** Permet aux membres du service des ressources humaines de créer, lire, mettre à jour et supprimer les données des stagiaires, ainsi que de générer automatiquement les attestations de stage.
 - **Interface Conviviale :** Une interface moderne et réactive pour une expérience utilisateur agréable.
 - **Outils Utilisés :** HTML, CSS, JavaScript, PHP, Framework Laravel, phpMyAdmin.
 
