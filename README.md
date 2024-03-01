@@ -30,5 +30,3 @@ Regardez la démonstration de l'application dans la [vidéo de démonstration](h
 **Contact**
 
 Pour toute question ou demande d'information, contactez-moi.
-
-Cette version simplifiée présente les points essentiels de votre projet de fin d'études. N'hésitez pas à me faire part de toute autre modification ou information que vous souhaitez inclure.
