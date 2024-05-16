@@ -1,4 +1,4 @@
-# Projet de fin d'études - Gestion de Stagiaires
+# Aperçu de l'application web de gestion des stagiaires
 
 <br>
 
@@ -8,7 +8,7 @@
 
 <br>
 
-Ce projet représente mon travail de fin d'études de ma deuxième année en informatique. Il s'agit d'une application web dédiée à la gestion des stages au sein d'une entreprise, visant à simplifier les tâches du service des ressources humaines et à garantir le succès du processus de stage.
+Ce projet représente mon travail de fin d'études de ma deuxième année en génie informatique. Il s'agit d'une application web dédiée à la gestion des stages au sein d'une entreprise, visant à simplifier les tâches du service des ressources humaines et à garantir le succès du processus de stage
 
 **Fonctionnalités Principales**
 
