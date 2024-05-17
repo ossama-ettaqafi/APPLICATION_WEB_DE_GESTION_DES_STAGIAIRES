@@ -1,0 +1,138 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1,
+  h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Card styles */
+  .section {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 800px;
+  }
+  
+  /* Dashboard section */
+  #dashboard h2 {
+    font-size: 24px;
+  }
+  
+  /* Interns section */
+  #interns h2 {
+    font-size: 24px;
+  }
+  
+  #interns ul {
+    margin-bottom: 15px;
+  }
+  
+  #interns li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #interns li:before {
+    content: '\2022';
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Menu options section */
+  #menu-options h2 {
+    font-size: 24px;
+  }
+  
+  #menu-options ul {
+    margin-bottom: 15px;
+  }
+  
+  #menu-options li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #menu-options li i {
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  /* Help section */
+  .help-section {
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hover effect on cards */
+  .section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }

@@ -1,0 +1,44 @@
+footer {
+background-color: #333;
+color: #fff;
+padding: 40px 0;
+}
+
+.footer-text {
+font-size: 1.2em;
+text-align: center;
+margin-top: 30px;
+}
+
+.footer-text p {
+margin: 0;
+}
+
+.footer-text i {
+margin-right: 10px;
+}
+
+footer nav {
+text-align: center;
+margin-top: 20px;
+}
+
+footer ul {
+display: inline-block;
+padding: 0;
+margin: 0;
+}
+
+footer li {
+display: inline-block;
+margin-right: 15px;
+}
+
+footer a {
+color: #fff;
+font-size: 1.5em;
+}
+
+.container-footer{
+    padding-left: 80px;
+}
