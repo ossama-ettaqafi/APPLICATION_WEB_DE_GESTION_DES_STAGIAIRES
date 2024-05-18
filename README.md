@@ -2,13 +2,13 @@
 
 ## Table des matières
 
-1. [Introduction](#introduction)
-2. [Objectifs](#objectifs)
-3. [Utilisateurs et rôles](#utilisateurs-et-rôles)
-4. [Fonctionnalités Principales](#fonctionnalités-principales)
-5. [Technologies Utilisées](#technologies-utilisées)
-6. [Contraintes Techniques](#contraintes-techniques)
-7. [Conclusion](#conclusion)
+- [Introduction](#introduction)
+- [Objectifs](#objectifs)
+- [Utilisateurs et rôles](#utilisateurs-et-rôles)
+- [Fonctionnalités Principales](#fonctionnalités-principales)
+- [Technologies Utilisées](#technologies-utilisées)
+- [Contraintes Techniques](#contraintes-techniques)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
