@@ -1,62 +1,86 @@
-# Cahier des charges de l'application de gestion des stagiaires
+# 🎓 Application de Gestion des Stagiaires – Cahier des charges
 
-## Table des matières
+> Ce document décrit les spécifications de l’application **de gestion des stagiaires**, conçue pour centraliser, suivre et automatiser l’ensemble du processus de gestion des stages au sein de l’entreprise. Elle vise une expérience fluide, collaborative et sécurisée pour tous les acteurs concernés.
 
-- [Introduction](#introduction)
-- [Objectifs](#objectifs)
-- [Utilisateurs et rôles](#utilisateurs-et-rôles)
-- [Fonctionnalités Principales](#fonctionnalités-principales)
-- [Technologies Utilisées](#technologies-utilisées)
-- [Contraintes Techniques](#contraintes-techniques)
-- [Conclusion](#conclusion)
+## 🗂 Table des matières
 
-## Introduction
+- [📌 Introduction](#-introduction)  
+- [🎯 Objectifs](#-objectifs)  
+- [👥 Utilisateurs et rôles](#-utilisateurs-et-rôles)  
+- [⚙️ Fonctionnalités principales](#-fonctionnalités-principales)  
+- [🧱 Technologies utilisées](#-technologies-utilisées)  
+- [📐 Contraintes techniques](#-contraintes-techniques)  
+- [✅ Conclusion](#-conclusion)
 
-Dans un effort pour optimiser et rationaliser le processus de gestion des stagiaires au sein de l'entreprise, l'application de gestion des stagiaires est conçue pour fournir une solution automatisée et conviviale pour la gestion des données et des interactions liées aux stages.
+## 📌 Introduction
 
-## Objectifs
+L'application de gestion des stagiaires est une **plateforme web intuitive** permettant de **centraliser et fluidifier la gestion des stages** au sein de l’entreprise. Elle permet aux responsables RH, superviseurs et stagiaires de collaborer efficacement via une interface centralisée, sécurisée et adaptée à tous les profils.
 
-L'objectif principal de cette application est d'automatiser les processus associés à la gestion des stagiaires, tout en offrant une interface intuitive et sécurisée pour les utilisateurs finaux. Les principaux objectifs comprennent :
+## 🎯 Objectifs
 
-- Centraliser et organiser les informations des stagiaires de manière efficace.
-- Faciliter la communication entre les différents acteurs impliqués dans le programme de stage.
-- Suivre les progrès des stagiaires et évaluer leurs performances de manière transparente.
-- Assurer la conformité aux normes de sécurité et de confidentialité des données.
+L’application vise à :
 
-## Utilisateurs et rôles
+- 📂 **Centraliser les données stagiaires** dans une base fiable et organisée.  
+- 🗨️ **Simplifier la communication** entre RH, superviseurs et stagiaires.  
+- 📈 **Suivre l’évolution des stagiaires** (objectifs, évaluations, missions).  
+- 🔐 **Garantir la sécurité** et la confidentialité des données sensibles.  
+- ⚙️ **Automatiser les tâches répétitives** liées à la gestion des stages.
+  
+## 👥 Utilisateurs et rôles
 
-L'application de gestion des stagiaires prend en charge les rôles suivants :
+| **Rôle**            | **Droits & responsabilités**                                                                 |
+|---------------------|----------------------------------------------------------------------------------------------|
+| 👤 **Administrateur**     | Paramétrage global, gestion des accès et configuration du système.                          |
+| 🧑‍💼 **RH / Responsable recrutement** | Création des fiches stagiaires, suivi des contrats, assignation aux superviseurs.    |
+| 🧑‍🏫 **Superviseur**       | Suivi quotidien, attribution de missions, rédaction des évaluations.                      |
+| 🎓 **Stagiaire**           | Accès à son espace personnel, ses missions, documents et retours d’évaluation.           |
 
-- Administrateur : Responsable de la configuration et de la gestion globale de l'application.
-- Service des ressources humaines : Gère les données des stagiaires et supervise le processus de recrutement.
-- Superviseur : Responsable du suivi et de l'évaluation des stagiaires.
-- Stagiaire : Accède à ses informations personnelles et aux tâches assignées.
+## ⚙️ Fonctionnalités principales
 
-## Fonctionnalités Principales
+- 🗃️ **Gestion des stagiaires**  
+  Création, modification, historique, archivage des fiches stagiaires.
 
-L'application comprendra les fonctionnalités suivantes :
+- 🧭 **Suivi & évaluation**  
+  Attribution d’objectifs, évaluation continue et finale, feedbacks.
 
-- Gestion des Stagiaires
-- Interface Utilisateur Intuitive
-- Communication Interne
-- Suivi des Progrès et Évaluation
-- Génération de Rapports
-- Gestion Documentaire
-- Calendrier des Événements
-- Notifications et Alertes
+- 💬 **Communication interne**  
+  Messagerie interne / commentaires sur tâches / mentions entre utilisateurs.
 
-## Technologies Utilisées
+- 📆 **Calendrier partagé**  
+  Affichage des événements clés, réunions, échéances de livrables.
 
-Les technologies suivantes seront utilisées pour le développement de l'application :
+- 📎 **Gestion documentaire**  
+  Upload sécurisé des CV, conventions, rapports de stage, attestations.
 
-- Frontend : HTML, CSS, JavaScript
-- Backend : Laravel
-- Base de données : MySQL
+- 📊 **Rapports & statistiques**  
+  Export PDF, suivi par service/période, tableaux de bord personnalisés.
 
-## Contraintes Techniques
+- 🔔 **Système de notifications**  
+  Avertissements automatiques pour deadlines, événements ou documents manquants.
 
-L'application sera compatible avec les navigateurs web les plus courants et sera accessible depuis différents appareils et plateformes. Elle sera optimisée pour garantir des performances fluides même avec un grand nombre d'utilisateurs simultanés.
+- 💻 **Interface utilisateur responsive**  
+  Compatible avec ordinateur, tablette et mobile.
 
-## Conclusion
+## 🧱 Technologies utilisées
 
-En respectant les exigences énoncées dans ce cahier des charges, l'application de gestion des stagiaires fournira une solution complète et efficace pour répondre aux besoins de l'entreprise en matière de gestion des stagiaires. En automatisant les processus, en assurant la sécurité des données et en offrant une expérience utilisateur intuitive, cette application contribuera à améliorer l'efficacité et la transparence du programme de stages de l'entreprise.
+| **Layer**         | **Technologie**                     |
+|-------------------|-------------------------------------|
+| 🎨 Frontend        | HTML · CSS · JavaScript (vanilla ou avec framework JS si besoin) |
+| ⚙️ Backend         | Laravel (PHP Framework moderne et robuste) |
+| 🛢️ Base de données | MySQL (relationnelle, fiable et rapide)   |
+| 🔐 Authentification | Laravel Auth / Middleware personnalisés      |
+| 🖥️ Hébergement     | Serveur Apache ou Nginx compatible PHP/MySQL |
+
+## 📐 Contraintes techniques
+
+- 🌐 **Compatibilité multi-navigateurs** : Chrome, Firefox, Safari, Edge.
+- 📱 **Responsive design** : accès fluide depuis tous types d’écrans.
+- 🔐 **Sécurité** : protection des données sensibles (authentification, HTTPS, rôles).
+- ⚡ **Performance** : chargement rapide et optimisé même avec un grand nombre d’utilisateurs.
+- 🧩 **Modularité** : architecture pensée pour accueillir de futures évolutions (exports avancés, IA, API externe...).
+
+## ✅ Conclusion
+
+En automatisant et centralisant la gestion des stages, cette application permettra à l’entreprise de **gagner en efficacité, en transparence et en sécurité**. Grâce à son interface conviviale et à ses fonctionnalités complètes, elle deviendra un outil incontournable dans le processus d’accueil, de suivi et d’évaluation des stagiaires.
+
+> 🔄 **Ce projet est conçu pour évoluer** : de nouvelles fonctionnalités pourront être intégrées au fil du temps, selon les besoins des utilisateurs et les retours d’expérience. L’application continuera ainsi à s’enrichir et à s’adapter aux exigences futures de la gestion des talents en entreprise.
