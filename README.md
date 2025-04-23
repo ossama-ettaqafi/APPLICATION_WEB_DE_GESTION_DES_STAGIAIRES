@@ -83,4 +83,4 @@ L’application vise à :
 
 En automatisant et centralisant la gestion des stages, cette application permettra à l’entreprise de **gagner en efficacité, en transparence et en sécurité**. Grâce à son interface conviviale et à ses fonctionnalités complètes, elle deviendra un outil incontournable dans le processus d’accueil, de suivi et d’évaluation des stagiaires.
 
-> 🔄 **Ce projet est conçu pour évoluer** : de nouvelles fonctionnalités pourront être intégrées au fil du temps, selon les besoins des utilisateurs et les retours d’expérience. L’application continuera ainsi à s’enrichir et à s’adapter aux exigences futures de la gestion des talents en entreprise.
+> 🔄 Ce projet est conçu pour évoluer : plusieurs fonctionnalités importantes ne sont pas encore finalisées à ce jour, mais sont prévues dans les prochaines étapes de développement. L’application continuera ainsi à s’enrichir progressivement, en tenant compte des besoins des utilisateurs et des retours d’expérience, afin de mieux répondre aux attentes en matière de gestion des talents en entreprise.
