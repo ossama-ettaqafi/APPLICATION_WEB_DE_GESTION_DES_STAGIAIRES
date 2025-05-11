@@ -1,86 +1,48 @@
-# 🎓 Application de Gestion des Stagiaires – Cahier des charges
+# 📄 Application de Gestion des Stagiaires – Version CRUD Simple
 
-> Ce document décrit les spécifications de l’application **de gestion des stagiaires**, conçue pour centraliser, suivre et automatiser l’ensemble du processus de gestion des stages au sein de l’entreprise. Elle vise une expérience fluide, collaborative et sécurisée pour tous les acteurs concernés.
-
-## 🗂 Table des matières
-
-- [📌 Introduction](#-introduction)  
-- [🎯 Objectifs](#-objectifs)  
-- [👥 Utilisateurs et rôles](#-utilisateurs-et-rôles)  
-- [⚙️ Fonctionnalités principales](#-fonctionnalités-principales)  
-- [🧱 Technologies utilisées](#-technologies-utilisées)  
-- [📐 Contraintes techniques](#-contraintes-techniques)  
-- [✅ Conclusion](#-conclusion)
-
-## 📌 Introduction
-
-L'application de gestion des stagiaires est une **plateforme web intuitive** permettant de **centraliser et fluidifier la gestion des stages** au sein de l’entreprise. Elle permet aux responsables RH, superviseurs et stagiaires de collaborer efficacement via une interface centralisée, sécurisée et adaptée à tous les profils.
+> Application web permettant uniquement la gestion basique des stagiaires et la génération d'attestations de stage.
 
 ## 🎯 Objectifs
 
-L’application vise à :
+* 👤 Gérer les fiches stagiaires (création, modification, suppression, consultation).
+* 🧾 Générer et imprimer des attestations de fin de stage (PDF).
+* 💾 Stocker les données dans une base fiable (MySQL).
 
-- 📂 **Centraliser les données stagiaires** dans une base fiable et organisée.  
-- 🗨️ **Simplifier la communication** entre RH, superviseurs et stagiaires.  
-- 📈 **Suivre l’évolution des stagiaires** (objectifs, évaluations, missions).  
-- 🔐 **Garantir la sécurité** et la confidentialité des données sensibles.  
-- ⚙️ **Automatiser les tâches répétitives** liées à la gestion des stages.
-  
-## 👥 Utilisateurs et rôles
+## 👥 Utilisateurs
 
-| **Rôle**            | **Droits & responsabilités**                                                                 |
-|---------------------|----------------------------------------------------------------------------------------------|
-| 👤 **Administrateur**     | Paramétrage global, gestion des accès et configuration du système.                          |
-| 🧑‍💼 **RH / Responsable recrutement** | Création des fiches stagiaires, suivi des contrats, assignation aux superviseurs.    |
-| 🧑‍🏫 **Superviseur**       | Suivi quotidien, attribution de missions, rédaction des évaluations.                      |
-| 🎓 **Stagiaire**           | Accès à son espace personnel, ses missions, documents et retours d’évaluation.           |
+| Rôle                 | Description                                                              |
+| -------------------- | ------------------------------------------------------------------------ |
+| 👩‍💼 Administrateur | Peut effectuer toutes les opérations CRUD + impression des attestations. |
 
 ## ⚙️ Fonctionnalités principales
 
-- 🗃️ **Gestion des stagiaires**  
-  Création, modification, historique, archivage des fiches stagiaires.
-
-- 🧭 **Suivi & évaluation**  
-  Attribution d’objectifs, évaluation continue et finale, feedbacks.
-
-- 💬 **Communication interne**  
-  Messagerie interne / commentaires sur tâches / mentions entre utilisateurs.
-
-- 📆 **Calendrier partagé**  
-  Affichage des événements clés, réunions, échéances de livrables.
-
-- 📎 **Gestion documentaire**  
-  Upload sécurisé des CV, conventions, rapports de stage, attestations.
-
-- 📊 **Rapports & statistiques**  
-  Export PDF, suivi par service/période, tableaux de bord personnalisés.
-
-- 🔔 **Système de notifications**  
-  Avertissements automatiques pour deadlines, événements ou documents manquants.
-
-- 💻 **Interface utilisateur responsive**  
-  Compatible avec ordinateur, tablette et mobile.
+* ➕ **Ajouter un stagiaire** (nom, prénom, email, téléphone, date de début/fin, service).
+* ✏️ **Modifier une fiche stagiaire**.
+* ❌ **Supprimer un stagiaire**.
+* 🔍 **Consulter la liste des stagiaires** (table avec pagination/recherche).
+* 🧾 **Générer une attestation de stage en PDF** pour chaque stagiaire.
 
 ## 🧱 Technologies utilisées
 
-| **Layer**         | **Technologie**                     |
-|-------------------|-------------------------------------|
-| 🎨 Frontend        | HTML · CSS · JavaScript (vanilla ou avec framework JS si besoin) |
-| ⚙️ Backend         | Laravel (PHP Framework moderne et robuste) |
-| 🛢️ Base de données | MySQL (relationnelle, fiable et rapide)   |
-| 🔐 Authentification | Laravel Auth / Middleware personnalisés      |
-| 🖥️ Hébergement     | Serveur Apache ou Nginx compatible PHP/MySQL |
+| Composant        | Technologie                              |
+| ---------------- | ---------------------------------------- |
+| Frontend         | HTML · CSS · Bootstrap · JavaScript      |
+| Backend          | Laravel (PHP)                            |
+| Base de données  | MySQL                                    |
+| PDF              | Laravel DOMPDF (ou SnappyPDF)            |
+| Authentification | Simple (si nécessaire) avec Laravel Auth |
 
 ## 📐 Contraintes techniques
 
-- 🌐 **Compatibilité multi-navigateurs** : Chrome, Firefox, Safari, Edge.
-- 📱 **Responsive design** : accès fluide depuis tous types d’écrans.
-- 🔐 **Sécurité** : protection des données sensibles (authentification, HTTPS, rôles).
-- ⚡ **Performance** : chargement rapide et optimisé même avec un grand nombre d’utilisateurs.
-- 🧩 **Modularité** : architecture pensée pour accueillir de futures évolutions (exports avancés, IA, API externe...).
+* 📱 Interface responsive simple (Bootstrap).
+* 📄 Attestation PDF personnalisée avec nom, durée, service, etc.
+* ✅ Validation des champs à l’ajout/modification.
+* 📦 Application mono-utilisateur ou accès protégé simple.
+  
+## ✅ Exemple de flux
 
-## ✅ Conclusion
-
-En automatisant et centralisant la gestion des stages, cette application permettra à l’entreprise de **gagner en efficacité, en transparence et en sécurité**. Grâce à son interface conviviale et à ses fonctionnalités complètes, elle deviendra un outil incontournable dans le processus d’accueil, de suivi et d’évaluation des stagiaires.
-
-> 🔄 Ce projet est conçu pour évoluer : plusieurs fonctionnalités importantes ne sont pas encore finalisées à ce jour, mais sont prévues dans les prochaines étapes de développement.
+1. Admin se connecte.
+2. Accède à une liste des stagiaires.
+3. Ajoute un nouveau stagiaire via un formulaire.
+4. Clique sur "Imprimer attestation" → Génère un PDF avec les infos du stagiaire.
+5. Le PDF est téléchargeable ou imprimable directement.
