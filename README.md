@@ -46,3 +46,5 @@
 3. Ajoute un nouveau stagiaire via un formulaire.
 4. Clique sur "Imprimer attestation" → Génère un PDF avec les infos du stagiaire.
 5. Le PDF est téléchargeable ou imprimable directement.
+
+> 🔄 Ce projet est conçu pour évoluer : plusieurs fonctionnalités importantes ne sont pas encore finalisées à ce jour, mais sont prévues dans les prochaines étapes de développement.
